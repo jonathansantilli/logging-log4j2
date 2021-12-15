@@ -206,7 +206,7 @@
     <conversantDisruptorVersion>1.2.19</conversantDisruptorVersion>
     <elastic.version>7.15.2</elastic.version>
     <mongodb3.version>3.12.4</mongodb3.version>
-    <mongodb4.version>4.0.3</mongodb4.version>
+    <mongodb4.version>4.4.0</mongodb4.version>
     <groovy.version>2.5.6</groovy.version>
     <compiler.plugin.version>3.8.1</compiler.plugin.version>
     <pmd.plugin.version>3.13.0</pmd.plugin.version>
@@ -245,7 +245,7 @@
     <maven.doap.skip>false</maven.doap.skip>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
+    <projectDir/>
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
     <javax.persistence>2.2.1</javax.persistence>
     <osgi.api.version>1.10.0</osgi.api.version>
@@ -259,7 +259,7 @@
     <byteBuddyVersion>1.11.0</byteBuddyVersion>
     <argLine>-Xms256m -Xmx1024m</argLine>
     <javaTargetVersion>11</javaTargetVersion>
-    <module.name />
+    <module.name/>
   </properties>
   <pluginRepositories>
     <pluginRepository>
@@ -1109,7 +1109,7 @@
             </compilerArgs>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
             <annotationProcessorPaths>
               <path>
@@ -1395,7 +1395,7 @@
             </goals>
             <configuration>
               <skip>true</skip>
-              <resourceBundles />
+              <resourceBundles/>
             </configuration>
           </execution>
         </executions>
