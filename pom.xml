@@ -245,7 +245,7 @@
     <maven.doap.skip>false</maven.doap.skip>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <docLabel>Site Documentation</docLabel>
-    <projectDir />
+    <projectDir/>
     <commonsLoggingVersion>1.2</commonsLoggingVersion>
     <javax.persistence>2.2.1</javax.persistence>
     <osgi.api.version>1.10.0</osgi.api.version>
@@ -259,7 +259,7 @@
     <byteBuddyVersion>1.11.0</byteBuddyVersion>
     <argLine>-Xms256m -Xmx1024m</argLine>
     <javaTargetVersion>11</javaTargetVersion>
-    <module.name />
+    <module.name/>
   </properties>
   <pluginRepositories>
     <pluginRepository>
@@ -883,7 +883,7 @@
       <dependency>
         <groupId>org.liquibase</groupId>
         <artifactId>liquibase-core</artifactId>
-        <version>3.5.3</version>
+        <version>4.8.0</version>
       </dependency>
       <dependency>
         <groupId>net.javacrumbs.json-unit</groupId>
@@ -1109,7 +1109,7 @@
             </compilerArgs>
             <compilerArguments>
               <Xmaxwarns>10000</Xmaxwarns>
-              <Xlint />
+              <Xlint/>
             </compilerArguments>
             <annotationProcessorPaths>
               <path>
@@ -1395,7 +1395,7 @@
             </goals>
             <configuration>
               <skip>true</skip>
-              <resourceBundles />
+              <resourceBundles/>
             </configuration>
           </execution>
         </executions>
